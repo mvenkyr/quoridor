@@ -69,4 +69,3 @@ bool movePlayer(char board[9][9],char hw[8][8],char vw[8][8], int* r, int* c){
 
     return true;
 }
-
