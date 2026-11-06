@@ -15,7 +15,7 @@ int main() {
 
 
 
-    
+
 
     int r, c, nr, nc;
     int player = 1;
@@ -46,7 +46,7 @@ int main() {
 
         if(move_wall == 'M' || move_wall == 'm')
         {
-            bool isValidAction = movePlayer(board,hw,vw, player == 1 ? &p1r : &p2r , player == 1 ? &p1c : p2c);
+            bool isValidAction = movePlayer(board,hw,vw, player == 1 ? &p1r : &p2r , player == 1 ? &p1c : &p2c);
             if(isPlayerAtEdge(board, player, nr, nc)){
                 displayBoard(board, hw, vw);
                 printf("\nPLAYER %d WINS!\n", player);

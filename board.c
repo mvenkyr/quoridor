@@ -1,5 +1,5 @@
 #include "./board.h"
-
+#include <stdio.h>
 
 void initializeBoard(char board[9][9], char h[8][8], char vwall[8][8]){
     for(int i = 0; i < 9; i++)
