@@ -12,7 +12,11 @@ int main() {
     int p1r = 0, p1c = 4;
     int p2r = 8, p2c = 4;
 
+
+
+
     
+
     int r, c, nr, nc;
     int player = 1;
 
